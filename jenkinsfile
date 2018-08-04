@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages{
+        stage('Build'){
+            steps{
+            print "Build Completed"
+            }
+        }
+        stage('DeployToTest'){
+            steps{
+            print "Deployed to test"
+            }
+        }
+        stage('DeployToDev'){
+            steps{
+            print "Deployed to Dev"
+            }
+        }
+    }
+}
