@@ -15,6 +15,12 @@ pipeline{
             steps{
             print "Deployed to Dev"
             }
+        } 
+        stage('DeployToQa'){
+            steps{
+            print "Deployed to Qa"
+            }
         }
+
     }
 }
