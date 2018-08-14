@@ -16,9 +16,9 @@ pipeline{
             print "Deployed to Dev"
             }
         } 
-        stage('DeployToQa'){
+        stage('DeployToProd'){
             steps{
-            print "Deployed to Qa"
+            print "Deployed to Prod"
             }
         }
         stage('DeployToPROD'){
