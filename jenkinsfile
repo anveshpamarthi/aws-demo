@@ -21,6 +21,11 @@ pipeline{
             print "Deployed to Qa"
             }
         }
+        stage('DeployToPROD'){
+            steps{
+            print "Deployed to PROD"
+         }
+        }
 
     }
 }
