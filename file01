@@ -16,7 +16,7 @@ pipeline{
             print "Deployed to Dev"
             }
         }
-		stage('Deploy to Qa'){
+	stage('Deploy to Qa'){
 		     steps{
 			 print "Deployed to Qa"
 			 }
@@ -26,11 +26,48 @@ pipeline{
 			 print "Deployed to prod"
 				}
 			}
-		stage('deploy to prod1'){
+	stage('deploy to prod1'){
 			steps{
 			print "Deployed to prod1"
 		}
 			}
+	 stage('deploy to prod2'){
+                        steps{
+                        print "Deployed to prod1"
+
 				}
 		
 		}
+	 stage('deploy to prod3'){
+                        steps{
+                        print "Deployed to prod1"
+                       }
+                }
+  	stage('deploy to prod4'){
+                        steps{
+                        print "Deployed to prod1"
+                       }
+                }
+	  stage('deploy to prod5'){
+                        steps{
+                        print "Deployed to prod1"
+                       }
+                }
+	  stage('deploy to prod6'){
+                        steps{
+                        print "Deployed to prod1"
+                       }
+                }
+	  stage('deploy to prod7'){
+                        steps{
+                        print "Deployed to prod1"
+                       }
+                }
+	  stage('deploy to prod8'){
+                        steps{
+                        print "Deployed to prod1"
+                       }
+                    }
+                }
+              }
+
