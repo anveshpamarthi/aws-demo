@@ -1,0 +1,36 @@
+pipeline{
+    agent any
+    stages{
+        stage('Build'){
+            steps{
+            print "Build Completed"
+            }
+        }
+        stage('DeployToTest'){
+            steps{
+            print "Deployed to test"
+            }
+        }
+        stage('DeployToDev'){
+            steps{
+            print "Deployed to Dev"
+            }
+        }
+		stage('Deploy to Qa'){
+		     steps{
+			 print "Deployed to Qa"
+			 }
+		}
+		stage('Deploy to Prod'){
+             steps{
+			 print "Deployed to prod"
+				}
+			}
+		stage('deploy to prod1'){
+			steps{
+			print "Deployed to prod1"
+		}
+			}
+				}
+		
+		}
