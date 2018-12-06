@@ -68,6 +68,12 @@ pipeline{
                         print "Deployed to prod1"
                        }
                     }
+	   stage('deploy to prod9'){
+                        steps{
+                        print "Deployed to prod9"
+                       }
+                    }
+
                 }
               }
 
