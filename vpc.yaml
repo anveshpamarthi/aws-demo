@@ -2,7 +2,7 @@ IAWSTemplateFormatVersion: '2010-09-09'
 Parameters:
   EnvironmentName:
     Type: String
-    Default: BoomerTest
+    Default: Flipgo
   VPCCIDR:
     Type: String
     Default: 20.0.0.0/16
